@@ -1,0 +1,154 @@
+    1  git --version
+    2  % ssh-keygen
+    3  cd
+    4  % ssh-keygen
+    5  mkdir /users/oliinyk/.ssh
+    6  mkdir /deskop/oliinyk/.ssh
+    7  mkdir /linux/.ssh
+    8  ssh-keygen
+    9  cat  /c/Users/schal/.ssh/id_ed25519.pub
+   10  ssh -i /c/Users/schal/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   11  scp -i /c/Users/schal/.ssh/id_rsa  ec2-user@linux.itcareerhub.de:///opt/19_02_24_ptm/Oliinyk/test_server.txt /c/Users/linux
+   12  ssh -i /c/Users//schal/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   13  ssh -i /c/Users//schal/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   14  ssh -i ~/.ssh/id_rsa [200~ssh -i ~/.ssh/id_rsa
+   15  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   16  ssh -T git@github.com
+   17  mkdir test_repo
+   18  mkdir test2_repo
+   19  cd test2_repo
+   20  git init
+   21  ls -la
+   22  echo 'hello from the local git' > README.md
+   23  git status
+   24  git add README.md
+   25  git status
+   26  git commit -m 'Add new file'
+   27  git commit -m "Add new file"
+   28   git remote add origin https://github.com/szsysysy111Varvara/test2_repo.git
+   29  git push -u origin main
+   30  git config --global user.email "barbaraoliinyk@gmail.com"
+   31   git config --global user.name "VarvaraOliinyk"
+   32  git commit -m "Add new file"
+   33  git remote add origin https://github.com/szsysysy111Varvara/test2_repo.git
+   34  git push -u origin main
+   35  mkdir git_intro
+   36  cd git_intro
+   37  git init
+   38  ls -la
+   39  cd ../
+   40  ls -la
+   41  cd ~
+   42  mkdir git_intro
+   43  cd git_intro
+   44  git init
+   45  git commit -m "Add new foto"
+   46  git remote add origin https://github.com/szsysysy111Varvara/git_intro.git
+   47  git push -u origin main
+   48  git add .
+   49  git commit -m "Add new foto"
+   50  git push -u origin main
+   51  git add README.md
+   52  mkdir git_intro1
+   53  cd git_intro1/
+   54  git init
+   55  cd ../
+   56  cd git_intro1/
+   57  git add foto_homework.jpg
+   58  git add foto_homework.jpg > README.md
+   59  git add .
+   60  git commit -m "Added foto"
+   61  git push -u origin main
+   62  git remote add origin https://github.com/szsysysy111Varvara/git_intro1.git
+   63  git push -u origin main
+   64  ls -la
+   65  mkdir git_intro
+   66  cd git_intro
+   67  git init
+   68  cp /c/Users/schal/Desktop/git_intro/foto_homework.jpg > git_intro1
+   69  cp /c/Users/schal/Desktop/git_intro/foto_homework.jpg git_intro1/
+   70  cp /c/Users/schal/Desktop/git_intro/foto_homework.jpg /cgit_intro1/
+   71  cp /c/Users/schal/Desktop/git_intro/foto_homework.jpg /c/Users/schal/git_intro1/
+   72  git push -u origin main
+   73  git remote add origin https://github.com/szsysysy111Varvara/git_intro1.git
+   74  git push -u origin main
+   75  rm -rf git_intro1
+   76  git clone git@github.com:szsysysy111Varvara/git_intro1.git
+   77  cd git_intro1
+   78  ls -la
+   79  ssh -i /c/User/schal/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   80  ssh -i /c/User/schal/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   81  git clone https://github.com/szsysysy111Varvara/test_repository.git
+   82  nano .gitignore
+   83  git checkout -b feature
+   84  cd test_repository
+   85  nano .gitignore
+   86  git checkout -b feature
+   87  git branch
+   88  ls -la
+   89  git add README.md .gitignore
+   90  cd ../
+   91  cd test_repository
+   92  git checkout main
+   93  git checkout master
+   94  git branch -a
+   95  git add README.md
+   96  git status
+   97  cd ../
+   98  git add README.md
+   99  echo "# test_repository" >> README.md
+  100  git add README.md
+  101  cd test_repository
+  102  git status
+  103  rm test_repository
+  104  ls
+  105  ls -la
+  106  rm -rf test_repository
+  107  git clone git@github.com:szsysysy111Varvara/test_repository.git
+  108  git clone git@github.com:szsysysy111Varvara/test_repository.git
+  109  rm -rf test_repository
+  110  git clone git@github.com:szsysysy111Varvara/test_repository.git
+  111  cd test_repository
+  112  git status
+  113  git add README.md
+  114  echo "# test_repository" >> README.md
+  115  git add README.md
+  116  git status
+  117  git commit -m "first commit"
+  118  git branch
+  119  git checkout -b feature
+  120  git branch
+  121  git checkout main
+  122  echo ".gitignore" >> .gitignore
+  123  git add .gitignore
+  124  git add -f .gitignore
+  125  ls -la
+  126  git commit -m "Added .gitignore file"
+  127  git checkout feature
+  128  git add README.md .gitignore
+  129  nano .gitignore
+  130  git add .gitignore
+  131  git add README.md .gitignore
+  132  git commit -m "Added changes to README.md and .gitignore"
+  133  git push origin feature
+  134  git commit --amend -m "Added changes to README.md and .gitignore: amend"
+  135  git checkout main
+  136  git merge feature
+  137  cat .gitignore
+  138  nano .gitignore
+  139  git add .gitignore
+  140  git merge --continue
+  141  history > history.txt
+  142  git add history.txt
+  143  git commit -m "Added commands from history"
+  144  git push origin main
+  145  git pull origin main
+  146  ls -la
+  147  cat history.txt
+  148  cd ../
+  149  touch history_commands.txt
+  150  history > history_commands.txt
+  151  git add history_commands.txt
+  152  cd test_repository
+  153  touch history_commands.txt
+  154  history > history_commands.txt
